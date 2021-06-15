@@ -15,11 +15,11 @@ const initialState = {
 
 const employee = {
     setNewEmployee(state, action) {
-        state.employee.name = state.payLooa.name;
-        state.employee.age = state.payLooa.age;
-        state.employee.mail = state.payLooa.mail;
-        state.employee.city = state.payLooa.city;
-        state.employee.phone = state.payLooa.phone;
+        state.employee.name = state.payLoad.name;
+        state.employee.age = state.payLoad.age;
+        state.employee.mail = state.payLoad.mail;
+        state.employee.city = state.payLoad.city;
+        state.employee.phone = state.payLoad.phone;
 
     },
     setAllEmployes(state, action) {
