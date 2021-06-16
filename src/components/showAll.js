@@ -10,6 +10,7 @@ export default function Show_All() {
     useEffect(() => {
         dispatch(actions.getAllEmployes())
     })
+    
 
     return (
         <>
